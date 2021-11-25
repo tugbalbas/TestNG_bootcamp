@@ -1,0 +1,18 @@
+package Gun04;
+
+import org.testng.annotations.Test;
+
+public class _02_Intro {
+
+    @Test
+    void test1(){
+        System.out.println("Intro 2 -> test 1");
+    }
+
+    @Test
+    void test2(){
+        System.out.println("Intro 2 -> test 2");
+    }
+}
+
+// 7 haziran

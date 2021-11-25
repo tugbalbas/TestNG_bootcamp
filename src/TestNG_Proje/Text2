@@ -1,0 +1,37 @@
+TEST3
+
+QA Otamasyon Kod Challenge
+Gerekenler
+ Kodunuzu kopyalayabileceğiniz bir GitHub deposuna yerleştirin
+ Selenium Webdriver ile Java (veya seçtiğiniz bir dil) kullanın
+ Seçtiğiniz BDD framework’u kullanın
+ Temel test kitaplığınız olarak TestNG veya JUnit'i kullanın; ikisi de olabilir
+
+Kodlama Alıştırması
+Otomasyonunuz için Chrome tarayıcıyı kullanarak www.autotrader.com veya https://www.autotrader.co.uk/
+adresine gidin ve aşağıdaki adımları otomatikleştirin
+Ana sayfada, aşağıdaki eleman türlerinin bulunduğunu doğrulayın:
+ links: Browse by Make, Browse by Style, Advanced Search
+ Buttons: Search
+ Drop downs: Make, Model
+Ana sayfadaki ‘Advanced Search’ bağlantısını tıklayın ve aşağıdakileri yapın:
+ ‘Zip code’ text box’a 30004 girin
+ 'Condition altındaki 'Certified' onay kutusunu seçin
+ 'Style altındaki 'Convertable' onay kutusunu seçin
+ ‘Year’ açılır menülerini aşağıdaki gibi güncelleyin: Başlangıç yılı olarak
+2017'yi ve bitiş yılını 2020 seçin
+ Make, Model & Trim altındaki Make as bölümünü ‘BMW’ olarak seçin
+ Sayfanın altındaki 'Search' düğmesini tıklayın
+ Bir sonraki sayfada bazı sonuçları/listeleri göreceksiniz
+ Sonuçlar sayfasında sadece BMW arabalarını gördüğünüzü Assert edin
+ Konsola giriş yapın, sonuçlar sayfasında gördüğünüz toplam araba/liste sayısı
+
+BİZ NEYİ ARIYORUZ
+Sizin tarzınız nedir? Bu projeye nasıl yaklaşıyorsunuz?İlk iş görüşmenizde,
+yaptığınız seçimlerin konuşulmasını bekleyin.
+Nasıl bir sonuç istersiniz .--Çok zamanınız varsa ve raporlama becerilerinizi
+göstermek istiyorsanız, bunu yapmaktan çekinmeyin. Daha az zamanınız mı
+var? Aradığımız verileri/sonuçları doğrudan konsola yazdırın ve testlerinizin
+başarılı olup olmadığını belirtin. Bu bizimle extra bonus puan toplamakla alakalı
+değil,bir sonraki görüşme için bize, sizin bilgi seviyenizi gösteren ve
+konuşulacak bir başlık olur

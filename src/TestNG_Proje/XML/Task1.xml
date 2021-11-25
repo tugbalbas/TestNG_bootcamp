@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="suit1" parallel="tests" thread-count="2">
+
+    <test name="test1">
+        <parameter name="email" value="tech123@tech.com"></parameter>
+        <parameter name="password" value="123456"></parameter>
+        <classes>
+            <class name="TestNG_Proje.Test1"></class>
+        </classes>
+    </test>
+
+    <test name="test2">
+        <parameter name="email" value="tech123@tech.com"></parameter>
+        <parameter name="password" value="123456"></parameter>
+        <classes>
+            <class name="TestNG_Proje.Test2"></class>
+        </classes>
+    </test>
+
+</suite>

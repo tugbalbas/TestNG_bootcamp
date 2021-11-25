@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [suit1]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="test1(failed)">
+    <parameter name="itemName" value="ipod"/>
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="Gun08._03_WishListPOM">
+        <methods>
+          <include name="BaslangicIslemleri"/>
+          <include name="BitisIslemleri"/>
+          <include name="test2"/>
+        </methods>
+      </class> <!-- Gun08._03_WishListPOM -->
+    </classes>
+  </test> <!-- test1(failed) -->
+</suite> <!-- Failed suite [suit1] -->
